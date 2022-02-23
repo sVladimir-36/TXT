@@ -1,1 +1,19 @@
-
+id:BR-1
+header:the selection of past date is allowed
+description: It is allowed to select a past date for ordering a call to the organization
+environment: Windows 10 64 bit, Google Chrome v.98.0.4758.102
+severity: major
+priority: high
+steps_to_reproduce:
+                  1.Open the page 
+                  2.Go to 'Feedback' page
+                  3.Go to the form 'Select the day of the week'
+                  4.In the calendar that opens, select any past date, for example: 11.01.2021
+                  5.In the field 'Phone number' enter the number: '+7-999-999-99-99'
+                  6.In the time selection form, in the 'From' radiobutton, select the value '09'
+                  7.In the 'To' radio button, select the value '16'
+                  8.Click on the 'Call me back' button
+actual result: The page displays the message 'Thank you, we will call you back at the specified time' and the buttons 'Thank you' and 'Change call time'
+expected result: A notification appears stating that an incorrect date has been selected. 'Call me back' button is not clickable
+attachment: screenshots
+assigned to: manager
