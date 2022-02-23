@@ -1,0 +1,17 @@
+skills:
+basic theory: test documentation, testing types, methods, directions, SDLC, STLC, client-server architecture
+HTTP: request methods, response codes, HTTP request and response structure
+JSON:structure
+XML: structure
+API testing: Postman, JS, API autotadting
+logs: removing, reading
+sniffers: fiddler, charles
+DevTools: Google Chrome, FireFox
+VPN: what for, how to use, instruments
+mobile testing; iOS, Android, guidelines, XCode, Android Studio, ADB
+linux terminal: copying, creating, moving, view
+sql: Create, Delete, Drop, Inser Into, Select, Join, From, Where
+postgres; installation, using, setting
+reddis: installation, using, setting
+jmeter: using
+python: basics, application creation
